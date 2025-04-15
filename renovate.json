@@ -55,6 +55,11 @@
       "groupName": "Python (Pipenv) Dependencies",
       "schedule": ["after 9am on Monday"],
       "dependencyDashboardApproval": false
+    },
+    {
+      "matchUpdateTypes": ["major"],
+      "separateMajorMinor": true,
+      "separateMultipleMajor": true
     }
   ],
   "regexManagers": [

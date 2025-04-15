@@ -45,6 +45,10 @@
       "groupName": "Node.js Dev Dependencies"
     },
     {
+      "matchManagers": ["nvm"],
+      "enabled": false
+    },
+    {
       "matchManagers": ["pipenv"],
       "commitMessagePrefix": "fix(deps):",
       "labels": ["dependencies", "python"],

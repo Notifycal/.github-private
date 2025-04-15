@@ -24,6 +24,27 @@
       "dependencyDashboardApproval": false
     },
     {
+      "matchManagers": ["npm"],
+      "matchDepTypes": ["dependencies"],
+      "commitMessagePrefix": "fix(deps):",
+      "labels": ["dependencies", "node", "npm"],
+      "groupName": "Node.js Dependencies"
+    },
+    {
+      "matchManagers": ["npm"],
+      "matchDepTypes": ["peerDependencies"],
+      "commitMessagePrefix": "fix(deps):",
+      "labels": ["dependencies", "node", "npm"],
+      "groupName": "Node.js Dev Dependencies"
+    },
+    {
+      "matchManagers": ["npm"],
+      "matchDepTypes": ["devDependencies"],
+      "commitMessagePrefix": "chore(dev-deps):",
+      "labels": ["dependencies", "node", "npm"],
+      "groupName": "Node.js Dev Dependencies"
+    },
+    {
       "matchManagers": ["pipenv"],
       "commitMessagePrefix": "fix(deps):",
       "labels": ["dependencies", "python"],
@@ -51,5 +72,13 @@
       "depNameTemplate": "{{depName}}",
       "versioningTemplate": "semver"
     }
-  ]
+  ],
+  "hostRules": [
+    {
+      "matchHost": "https://npm.pkg.github.com/",
+      "hostType": "npm",
+      "token": "{{ secrets.RENOVATE_GITHUB_COM_TOKEN }}"
+    }
+  ],
+  "npmrc": "@notifycal:registry=https://npm.pkg.github.com/"
 }

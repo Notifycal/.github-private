@@ -42,6 +42,15 @@
     },
     {
       "matchManagers": ["npm"],
+      "commitMessagePrefix": "fix(deps):",
+      "labels": ["dependencies", "node", "npm"],
+      "groupName": "AWS packages",
+      "matchPackagePatterns": [
+        "^@aws-*"
+      ]
+    },
+    {
+      "matchManagers": ["npm"],
       "matchDepTypes": ["devDependencies"],
       "commitMessagePrefix": "chore(dev-deps):",
       "labels": ["dependencies", "node", "npm"],

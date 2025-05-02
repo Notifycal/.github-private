@@ -43,7 +43,7 @@
     {
       "matchManagers": ["npm"],
       "commitMessagePrefix": "fix(deps):",
-      "labels": ["dependencies", "node", "npm"],
+      "labels": ["dependencies", "node", "npm", "aws"],
       "groupName": "AWS packages",
       "matchPackagePatterns": [
         "^@aws-*"

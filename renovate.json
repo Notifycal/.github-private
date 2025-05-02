@@ -25,17 +25,10 @@
     },
     {
       "matchManagers": ["npm"],
-      "matchDepTypes": ["dependencies"],
+      "matchDepTypes": ["dependencies", "peerDependencies"],
       "commitMessagePrefix": "fix(deps):",
       "labels": ["dependencies", "node", "npm"],
       "groupName": "Node.js Dependencies"
-    },
-    {
-      "matchManagers": ["npm"],
-      "matchDepTypes": ["peerDependencies"],
-      "commitMessagePrefix": "fix(deps):",
-      "labels": ["dependencies", "node", "npm"],
-      "groupName": "Node.js Dev Dependencies"
     },
     {
       "matchManagers": ["npm"],

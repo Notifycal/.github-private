@@ -32,6 +32,16 @@
     },
     {
       "matchManagers": ["npm"],
+      "commitMessagePrefix": "fix(deps):",
+      "labels": ["dependencies", "node", "npm"],
+      "groupName": "@notifycal/shared and zod",
+      "matchPackageNames": [
+        "zod",
+        "@notifycal/shared"
+      ]
+    },
+    {
+      "matchManagers": ["npm"],
       "matchDepTypes": ["devDependencies"],
       "commitMessagePrefix": "chore(dev-deps):",
       "labels": ["dependencies", "node", "npm"],

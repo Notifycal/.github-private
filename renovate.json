@@ -51,6 +51,15 @@
     },
     {
       "matchManagers": ["npm"],
+      "commitMessagePrefix": "fix(deps):",
+      "labels": ["dependencies", "node", "npm", "middy"],
+      "groupName": "Middy middleware packages",
+      "matchPackagePatterns": [
+        "^@middy-*"
+      ]
+    },
+    {
+      "matchManagers": ["npm"],
       "matchDepTypes": ["devDependencies"],
       "commitMessagePrefix": "chore(dev-deps):",
       "labels": ["dependencies", "node", "npm"],

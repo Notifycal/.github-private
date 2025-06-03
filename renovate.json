@@ -60,6 +60,18 @@
     },
     {
       "matchManagers": ["npm"],
+      "commitMessagePrefix": "fix(deps):",
+      "labels": ["dependencies", "node", "npm", "storybook"],
+      "groupName": "Storybook middleware packages",
+      "matchPackagePatterns": [
+        "^@storybook-*",
+        "^storybook$",
+        "^eslint-plugin-storybook$",
+        "^@chromatic-com/storybook$"
+      ]
+    },
+    {
+      "matchManagers": ["npm"],
       "matchDepTypes": ["devDependencies"],
       "commitMessagePrefix": "chore(dev-deps):",
       "labels": ["dependencies", "node", "npm"],

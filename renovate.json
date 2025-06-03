@@ -64,7 +64,9 @@
       "labels": ["dependencies", "node", "npm", "storybook"],
       "groupName": "Storybook middleware packages",
       "matchPackagePatterns": [
-        "^@storybook-*",
+        "^@storybook-*"
+      ],
+      "matchPackageNames": [
         "storybook",
         "eslint-plugin-storybook",
         "@chromatic-com/storybook"

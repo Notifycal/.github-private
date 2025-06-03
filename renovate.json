@@ -65,9 +65,9 @@
       "groupName": "Storybook middleware packages",
       "matchPackagePatterns": [
         "^@storybook-*",
-        "^storybook$",
-        "^eslint-plugin-storybook$",
-        "^@chromatic-com/storybook$"
+        "storybook",
+        "eslint-plugin-storybook",
+        "@chromatic-com/storybook"
       ]
     },
     {

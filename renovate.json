@@ -92,6 +92,7 @@
       "dependencyDashboardApproval": false
     },
     {
+      "matchManagers": ["npm", "terraform", "github-actions", "pipenv"],
       "separateMajorMinor": true,
       "separateMultipleMajor": true
     }

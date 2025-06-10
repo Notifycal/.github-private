@@ -92,7 +92,6 @@
       "dependencyDashboardApproval": false
     },
     {
-      "matchUpdateTypes": ["major"],
       "separateMajorMinor": true,
       "separateMultipleMajor": true
     }

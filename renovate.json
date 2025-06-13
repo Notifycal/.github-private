@@ -61,6 +61,15 @@
     {
       "matchManagers": ["npm"],
       "commitMessagePrefix": "fix(deps):",
+      "labels": ["dependencies", "node", "npm", "google"],
+      "groupName": "Google packages",
+      "matchPackagePatterns": [
+        "^google*"
+      ]
+    },
+    {
+      "matchManagers": ["npm"],
+      "commitMessagePrefix": "fix(deps):",
       "labels": ["dependencies", "node", "npm", "storybook"],
       "groupName": "Storybook middleware packages",
       "matchPackagePatterns": [

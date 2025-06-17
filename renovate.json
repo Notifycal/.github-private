@@ -83,6 +83,13 @@
     },
     {
       "matchManagers": ["npm"],
+      "commitMessagePrefix": "fix(deps):",
+      "labels": ["dependencies", "node", "npm", "@hookform"],
+      "groupName": null,
+      "matchPackageNames": ["@hookform/resolvers"]
+    },
+    {
+      "matchManagers": ["npm"],
       "matchDepTypes": ["devDependencies"],
       "commitMessagePrefix": "chore(dev-deps):",
       "labels": ["dependencies", "node", "npm"],

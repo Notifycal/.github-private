@@ -6,6 +6,8 @@
   "gitIgnoredAuthors": [
     "github-actions@github.com"
   ],
+  "automerge": true,
+  "automergeType": "pr",
   "packageRules": [
     {
       "matchManagers": ["terraform"],

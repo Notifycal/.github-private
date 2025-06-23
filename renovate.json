@@ -8,6 +8,9 @@
   ],
   "automerge": true,
   "automergeType": "pr",
+  "automergeSchedule": [
+    "* 0-3 * * *"
+  ],
   "packageRules": [
     {
       "matchManagers": ["terraform"],

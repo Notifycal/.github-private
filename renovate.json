@@ -12,6 +12,7 @@
     "* 0-3 * * *"
   ],
   "rebaseWhen": "automerging",
+  "recreateClosed": "always",
   "packageRules": [
     {
       "matchManagers": ["terraform"],

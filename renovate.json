@@ -118,6 +118,11 @@
       "matchManagers": ["npm", "terraform", "github-actions", "pipenv"],
       "separateMajorMinor": true,
       "separateMultipleMajor": true
+    },
+    {
+      "matchPackageNames": ["zod"],
+      "matchUpdateTypes": ["major"],
+      "enabled": false
     }
   ],
   "regexManagers": [
